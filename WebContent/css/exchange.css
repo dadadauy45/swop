@@ -1,0 +1,230 @@
+.left{
+	float:right;
+}
+.left a{
+	line-height: 65px;
+	color: rgba(58,255,56,0.8);
+	text-shadow: 0px 0px 10px transparent;
+	font-size: 18px;
+}
+
+.min-top{
+	background-color: green;
+}
+.big_box{
+	box-shadow: 3px 4px 12px rgba(0,126,12,0.2);
+
+}
+.big_box .title{
+	padding-left: 20px;
+	line-height: 40px;
+	background-color: lightgreen;
+} 
+.big_box .title h3{
+	color:white;
+}
+.main-bottom{
+	}
+.main-bottom .select_box_one{
+	line-height: 30px;
+}
+.main-bottom span{
+	padding-left: 10px;
+	color:#808080;
+}
+
+.main-bottom span.first_span{
+	font-size: 16px;
+	color:#333;
+	width:120px;
+	display: inline-block;
+}
+.main-bottom span.bitian{
+	color:blue;
+}
+.main-bottom .select_box_one select{
+	padding-left: 10px;
+	width: 100px;
+	height: 30px;
+	/*size: 7;*/
+} 
+.main-bottom .select_box_one select option{
+		width: 80px;
+		padding-left: 30px;
+		text-align: center;
+		font-size: 14px;
+		text-align: center;
+}
+.main-bottom span.null{
+	color:red;
+}
+.main-bottom .select_box_two select{
+	padding-left: 20px;
+	width: 100px;
+	height: 30px;
+}
+.main-bottom .select_box_two select option{
+		width: 80px;
+		padding-left: 30px;
+		text-align: center;
+		font-size: 14px;
+		text-align: center;
+}
+.main-bottom input{
+	padding-left: 10px;
+	height: 30px;
+	width: 240px;
+	color:#333;
+}
+.main-bottom .comment{
+	margin:8px 40px 0 40px;
+}
+.main-bottom input.radio{
+	width: 16px;
+	height: 16px;
+}
+.main-bottom .intro_box{
+	width: 100%;
+	margin-top: 10px;
+}
+.main-bottom .intro_box .intro{
+	padding-left: 10px;
+	float: left;
+
+}
+.main-bottom .intro_box .intro .intro_top{
+}
+.main-bottom .intro_box .intro h4{
+	display: inline-block;
+	line-height: 40px;
+}
+
+.main-bottom .intro_box .intro textarea{
+	display: inline-block;
+	resize: none;
+	width: 400px;
+	border-radius: 10px;
+	padding-left: 20px;
+	font-size: 16px;
+	padding-top: 10px;
+}
+.main-bottom .intro_box .kefu{
+	margin-right: 40px;
+	float: right;
+	background-color: white;
+	background-image: linear-gradient(to bottom,rgba(222,222,222,0.1),rgba(222,222,222,0.2));
+	height: 180px;
+	width: 300px;
+	margin-top: 50px;
+	padding: 10px 20px 0 20px;
+}
+.main-bottom .intro_box .kefu .kefu_top{
+	height: 80px;
+	/*background-color:#f0f0f0;*/
+	border:1px solid #f0f0f0;
+	padding:10px 8px 8px 10px;
+}
+.main-bottom .intro_box .kefu .kefu_top p{
+	line-height: 20px;
+}
+.main-bottom .intro_box .kefu .kefu_time{
+	line-height: 40px;
+	padding-left: 30px;
+}
+.main-bottom .intro_box .kefu .consult{
+	padding-left:80px;
+}
+.main-bottom .intro_box .kefu a{
+	text-align: center;
+	background-color: gray;
+	display: block;
+	width: 100px;
+	line-height: 40px;
+	color:white;
+	border-radius: 10px;
+}
+.main-bottom .intro_box .kefu a:hover{
+	background-image: linear-gradient(to top,rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+}
+.main-bottom .three_div{
+	margin-left: 10px;
+}
+.main-bottom .three_div .imgshow_box{
+	margin-left: 40px;
+	height: 80px;
+	display: none;
+}
+.main-bottom .three_div .imgshow_box .small_box{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	display: inline-block;
+	margin-left: 5px;
+}
+.main-bottom .three_div .imgshow_box img{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	
+}
+.main-bottom .three_div .imgshow_box .small_box span{
+	width: 12px;
+	font-weight: 700;
+	height: 12px;
+	display: block;
+	padding: 0;
+	color:rgba(255,255,255,0.2);
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	line-height: 12px;
+	cursor: pointer;
+	font-size: 12px
+}
+.main-bottom .three_div .image .image-one{
+	/* visibility: hidden;  */
+}
+.main-bottom .three_div .image .image-two{
+	background-color: gray;
+	color:white;
+}
+.main-bottom .four_div {
+	margin-top: 20px;
+}
+.main-bottom .four_div .my_add select{
+	padding-left: 10px;
+	width: 100px;
+	height: 30px;
+}
+.main-bottom .four_div .my_add select option{
+	width: 80px;
+	padding-left: 30px;
+	text-align: center;
+	font-size: 14px;
+	text-align: center;
+}
+.main-bottom .four_div .agree{
+}
+.main-bottom .four_div .agree a{
+	color:#909090;
+}
+.main-bottom .four_div .agree a:hover{
+	text-decoration: underline;
+}
+.main-bottom .four_div .agree .checked{
+	width: 14px;
+	height: 14px;
+}
+.main-bottom .preserve{
+	height: 60px;
+}
+.main-bottom .preserve input{
+	background-color: gray;
+	color:white;
+}
+.main-bottom input.color{
+	background-image: linear-gradient(to top,rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+}

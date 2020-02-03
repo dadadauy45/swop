@@ -1,0 +1,347 @@
+
+body{
+	background-color: rgba(255,255,255,0.8);
+}
+.min_center{
+	width: 1100px;
+	margin:0,auto;
+}
+.min-top{
+	background-color:#f0f0f0;
+	height: 50px;
+}
+.min-top .left{
+	display: inline-block;
+	line-height: 50px;
+	font-size: 18px;
+}
+.min-top .left a{
+	font-size: 18px;
+	color:#333;
+	padding-left: 5px;
+}
+.min-top .right{
+	line-height: 50px;
+	display: inline-block;
+	float: right;
+	text-shadow: 0px 0px 10px transparent;
+}
+.min-top .right{
+	font-size: 16px;
+	color:#333;
+	padding-left: 5px; 
+}
+.min-top .right li{
+	float: left;
+	font-size: 16px;
+	color:green;
+	padding-left: 5px;
+	
+}
+.min-top .right li a{
+	color:#333;
+}
+.wkit-theme-default {
+    font-size: 12px;
+    line-height: 18px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    margin: 4px;
+}
+
+.wkit-theme-default a:active, .wkit-theme-default a:hover {
+    outline: 0
+}
+.wkit-theme-default img {
+    border: none
+}
+.wkit-theme-default textarea {
+    width: 100%;
+    border-radius: 0px;
+    border:none;
+}
+.wkit-theme-default .wkit-clear {
+    *zoom: 1
+}
+.wkit-theme-default .wkit-clear:after, .wkit-theme-default .wkit-clear:before {
+    content: '';
+    line-height: 0;
+    display: table
+}
+.wkit-theme-default .wkit-clear:after {
+    clear: both
+}
+.wkit-theme-default .wkit-plugin-wrap {
+    float: left;
+    overflow: hidden;
+    width: 150px; height: 500px; margin-right: 5px;
+}
+.wkit-theme-default .wkit-plugin-wrap .wkit-user-info {
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+    background: #fff;
+    width: 148px; height: 168px; 
+}
+.wkit-theme-default .wkit-plugin-wrap .wkit-user-info .wkit-logo {
+    overflow: hidden;
+    font-size: 12px;
+    height: 34px;
+    height: 34px; line-height: 34px; line-height: 34px;
+}
+
+.wkit-theme-default .wkit-plugin-wrap .wkit-user-info .wkit-logo img{
+	height:22px;width:22px;margin:6px 0 0 5px;float:left;
+}
+.wkit-theme-default .wkit-plugin-wrap .wkit-user-info .wkit-user-avatar {
+    text-align: center
+}
+.wkit-theme-default .wkit-plugin-wrap .wkit-user-info .wki-title-wrap {
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+   margin:0px 0 0 10px;float:left;
+}
+.wkit-theme-default .wkit-plugin-wrap .wkit-plugin {
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+    width: 148px;
+     height: 327px; 
+     margin-top: 5px;
+     padding-top: 10px;
+     padding-left: 10px;
+}
+.wkit-theme-default .wkit-plugin-wrap .wkit-plugin .same{
+	line-height: 30px;
+}
+.wkit-theme-default .wkit-plugin-wrap .wkit-plugin .same a{
+	color: gray;
+}
+.wkit-theme-default .wkit-plugin-wrap .wkit-plugin .same a:hover{
+	text-decoration: underline;
+}
+.wkit-theme-default .wkit-chat-wrap {
+    position: relative;
+    float: left;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    width: 474px; height: 500px;
+    margin-right: 5px;
+}
+.wkit-theme-default .wkit-chat-wrap .wrap{
+	position: absolute;
+	left: 0;	
+	bottom: 0;	
+	width: 100%;
+}
+.wkit-theme-default .wkit-chat-wrap .wrap .content{
+	width: 100%;
+}
+.wkit-theme-default .wkit-chat-wrap .wrap .content .cont-box{
+	border:none;
+}
+.wkit-theme-default .wkit-chat-wrap .wrap .content .submit-btn{
+	width: 60px;
+	height: 30px;
+	position: absolute;
+	bottom: 8px;
+	right: 18px;
+}
+.wkit-theme-default .wkit-chat-wrap .wrap .content .submit-btn input{
+	 width: 100%;
+    height: 100%;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #99cc66;
+}
+.wkit-theme-default .wkit-chat-wrap .wrap .head-face img {
+	width: 40px;
+	height: 40px;
+}
+
+.big-content{
+	height: 100%;
+	position: relative;
+}
+.info-show .reply-cont {
+	width: auto;
+    padding-right: 4%;
+    float: right;
+}
+.info-show .reply-cont .time{
+	float: right;
+}
+.info-show .reply-cont p {
+    min-height: 20px;
+    line-height: 20px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+.info-show {
+	height: 338px;
+	position: relative;
+	margin-top: 0px;
+}
+.info-show ul{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 472px;
+}
+
+.info-show li {
+    width: 472px;
+    height: auto;
+    padding: 10px 20px 0px 0;
+    float: right;
+    margin-bottom: 10px;
+    border:none;
+}
+.info-show .head-face {
+    width: 10%;
+    float: right;
+    text-align: center;
+}
+.info-show .head-face img{
+	width: 40px;
+	height: 40px;
+}
+.info-show .reply-cont .comment-footer {
+    font-size:12px;
+    color: #c0c0c0;
+    display: inline-block;
+    margin-top: 10px;
+}
+.info-show .reply-cont .comment-body {
+    color: #333;
+    max-height: auto;
+    float: right;
+}
+.info-show .reply-cont .comment-body img{
+	max-width: 240px;
+}
+.tools-box .operator-box-btn .img-icon {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: "微软雅黑";
+    font-size: 33px;
+    font-weight: lighter;
+    color: #99cc66;
+    cursor: pointer;
+}
+.tools-box .operator-box-btn .face-icon {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: "微软雅黑";
+    font-size: 22px;
+    color: #99cc66;
+    cursor: pointer;
+}
+.wkit-theme-default .tools-box {
+	border:1px solid rgba(153,204,102,0.19);
+	border-radius: 0px;
+}
+.wkit-theme-default .tools-box .image-one{
+	visibility: hidden;
+}
+.wkit-theme-default .wkit-address-wrap{
+	padding: 5px;
+	float: left;
+	height: 500px;
+	width: 460px; 
+	border:1px solid #e5e5e5;
+}
+.wkit-address-wrap .notice{
+	margin-top: -3px;
+	border:1px dotted orange;
+	padding-left: 6px;
+}
+form {
+	margin-top: 20px;
+	padding-left: 0px;
+}
+
+form .comment{
+	margin:10px 40px 0 0px;
+}
+
+form span.first_span{
+	display: inline-block;
+	width: 100px;
+	padding-left: 20px;
+	font-size: 16px;
+	color:#333;
+}
+.wkit-address-wrap form textarea{
+	background-color: #e5e5e5;
+	width: 240px;
+	height: 60px;
+	color:#333;
+	padding: 10px;
+	border-radius: 10px;
+}
+form .xx_add{
+	display: flex;
+	align-items:center;
+}
+form span{
+	padding-left: 5px;
+}
+form span.bitian{
+	display: inline-block;
+	padding-left: 8px;
+	color:red;
+}
+form input{
+	padding-left: 10px;
+	height: 30px;
+	width: 240px;
+	color:#333;
+	background-color: #e5e5e5;
+	border-radius: 8px;
+}
+form .yanzheng .code_yanzheng{
+	font-family:Arial,宋体;  
+    font-style:italic;  
+    color:green;  
+    border:0;  
+    padding:2px 3px;  
+    letter-spacing:3px;  
+    font-weight:bolder;
+	width: 60px;
+}
+form .yanzheng a{
+	padding-left: 8px;
+	cursor: pointer;
+	color:blue;
+}
+form .yanzheng a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+form .code{
+	width:80px;
+}
+form .submit{
+	padding-left: 102px;
+}
+form .submit .btn{
+	width: 100px;
+	height: 36px;
+}
+.wkit-address-wrap form span.null{
+	color:red;
+}

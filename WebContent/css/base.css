@@ -1,0 +1,261 @@
+*,::before,::after{
+	margin:0;
+	padding: 0;
+	-webkit-tap-highlight-color:transparent;
+	-webkit-box-sizing:border-box;
+}
+input,textarea,button{
+	border:none;
+	resize:none;
+	outline: none;
+}
+body{
+
+	background-color:#f0f0f0;
+	font-size: 14px;
+	font-family: 'Microsoft YaHei',sans-serif;
+	color:#000;
+	min-width: 1066px;
+}
+.clearfix::before,
+.clearfix::after{
+	content: '.';
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear:both;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.center{
+	width: 1194px;
+	margin:0 auto;
+}
+.min_center{
+	width: 70%;
+	margin: 0 auto;
+}
+.min-top{
+	width: 100%;
+	height:65px;
+}
+.min-top .min_logo{
+	margin-top: 2px; 
+
+	height: 65px;
+	width: 180px;
+	float: left;border:1px solid green;
+}
+.min-top .min_logo img{
+	width: 100%;
+	height: 100%;
+	
+}
+.min-top .right{
+	line-height: 65px;
+	color:rgba(58,240,56,0.8);
+	text-shadow: 0px 0px 10px green;
+	font-size: 18px;
+	display:inline-block;
+}
+.top{
+	height: 50px;
+	background-color: #00b900;
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+}
+.top .top-left{
+	float: left;
+}
+.top .top-left li{
+	text-align: center;
+	height: 100%;
+	float: left;
+	width: 80px;
+}
+.top .top-left li a{
+	font-size: 12px;
+	display: block;
+	height: 100%;
+	width: 100%;
+	color:#f0f0f0;
+	line-height: 50px;
+}
+.top .top-left li a:hover,
+.top .top-right li a:hover{
+	color:white;
+}
+.top .top-right{
+	float: right;
+
+}
+.top .top-right li{
+	text-align: center;
+	float: left;
+	width: 80px;
+}
+.top .top-right li a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	color:#f0f0f0;
+	line-height: 50px;
+	font-size: 12px;
+}
+.nav{
+	width: 100%;
+	padding-top: 40px;
+	height: 160px;
+	background-color: white;
+	box-shadow: 0 8px 20px #e0e0e0;
+	margin-bottom: 8px;
+}
+.nav .logo{
+	width: 240px;
+	height: 68px;
+	float: left;
+	position: absolute;
+	box-shadow: 4px 2px 15px #f0f0f0;
+}
+.nav .logo img{
+	width: 100%;
+	height: 100%;
+}
+.nav .main{
+	padding-left: 340px; 
+	width: 100%;
+	float: right;
+	margin-left: 3%;
+}
+.nav .main .search-box{
+	width: 60%;
+	float: left;
+	position: relative;
+}
+.nav .main .search-box .hide_box{
+	z-index: 200;
+	display: none;
+	width: 432px;
+	background-color: lightgreen;
+	height:auto;
+	position: absolute;
+	left: 0;
+	top: 44px;
+	background-color:rgba(58,216,122,0.6);
+}
+.nav .main .search-box .hide_box ul{
+			list-style: none;
+			width: 100%;
+}
+.nav .main .search-box .hide_box ul li{
+			width: 100%;
+			line-height: 30px;
+			text-align: left;
+}
+.nav .main .search-box .hide_box ul li a{
+			display: block;
+			text-decoration: none;
+			color: white;
+			font-size: 18px;
+			padding-left: 40px;
+}
+.nav .main .search-box .hide_box ul li a:hover{
+	background-color: rgba(255,255,255,0.5);
+}
+.nav .main .search-box form{
+	width: 100%;
+	display: flex;
+	/*flex-direction: row;*/
+	align-items: center;
+}
+.nav .main .search-box form input{
+	width: 435px;
+	height: 44px;
+	border:1px solid rgba(58,216,122,0.8);
+	border-radius: 8px 0 0 0px;
+	padding-left: 20px;
+	font-size: 16px;
+	color:#666;
+	border-right: none;
+	position: relative;
+}
+.nav .main .search-box form .btn{
+	border:1;
+	width: 16%;
+	height: 44px;
+	background-color: #00b900;
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+	border-radius: 0 8px 8px 0;
+	position: relative;
+}
+.nav .main .search-box form .btn::before{
+	content: '';
+	background: url('../images/sq .png');
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 22px;
+	top: 8px;
+	-webkit-background-size: 32px;
+	background-size: 32px;
+}
+@media (max-width: 1255px){
+	.nav .main .search-box .hide_box{
+		width: 353px;
+}
+.nav .main .search-box form .btn::before{
+	left: 17px;
+}
+}
+.nav .main .search-box span.first{
+	margin-left: 20px;
+}
+.nav .main .search-box span{
+	font-size: 12px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.nav .main .search-box span a{
+	display: inline-block;
+	color:gray;
+}
+.nav .main .search-box span a:hover{
+	color:green;
+}
+.nav .main .search-box .nav-bottom{
+	margin-top: 10px;
+	margin-left: -10px;
+	height: 40px;
+	width: 500px;
+	
+}
+
+.footer{
+	width: 80%;
+	margin:18px auto;
+	height: 30px;
+	border-top: 1px dotted green;
+}
+.footer ul{
+	width: 60%;
+	height: 20px;
+	margin:20px auto;
+}
+.footer ul li{
+	float: left;
+	width: 24%;
+	text-align: center;
+}
+.footer ul li a{
+	color:#808080;
+}
+.footer p{
+	text-align: center;
+	line-height: 10px;
+	margin-top: 10px;
+	color:#808080;
+}

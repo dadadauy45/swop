@@ -1,0 +1,128 @@
+body{
+	background-color: white;
+	background:url(../images/book.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-image: contain; 
+}
+.left{
+	float:right;
+}
+.left a{
+	line-height: 65px;
+	color: rgba(58,255,56,0.8);
+	text-shadow: 0px 0px 10px transparent;
+	font-size: 18px;
+}
+
+.main{
+
+	width: 80%;
+	margin:13px auto;
+	background-color: rgba(145,239,145,0.8);
+}
+.main .main-top{
+	width: 100%;
+	line-height: 40px;
+	background-color: #00b900;
+	background-image: linear-gradient(to top,rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+	color:rgba(255,255,255,0.8);
+	padding-left: 20px;
+	font-size: 18px;
+}
+.main .main-bottom{
+}
+.main form{
+	width: 100%;
+
+}
+.main .comment{
+	margin:8px 40px 0 40px;
+}
+.main .username{
+	margin-top: 0;
+	padding-top: 20px;
+}
+.main  .red{
+	color:red;
+}
+.main  span{
+	padding-left: 8px;
+	color:#808080;
+}
+.main  span.first_span{
+	display: inline-block;
+	width: 120px;
+	padding-left: 20px;
+	font-size: 16px;
+	color:#333;
+}
+.main span.bitian{
+	display: inline-block;
+	padding-left: 8px;
+	color:blue;
+}
+.main input{
+	padding-left: 10px;
+	height: 30px;
+	width: 240px;
+	color:#333;
+}
+.main .yanzheng .code_yanzheng{
+	font-family:Arial,宋体;  
+    font-style:italic;  
+    color:green;  
+    border:0;  
+    padding:2px 3px;  
+    letter-spacing:3px;  
+    font-weight:bolder;
+	width: 60px;
+}
+.main .yanzheng a{
+	padding-left: 8px;
+	cursor: pointer;
+	color:blue;
+}
+.main .yanzheng a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.main .yanzheng .tixing{
+	color:red;
+}
+.main .succeed{
+	color:green;
+}
+
+.main .registered{
+	margin-top:20px;
+	padding-bottom: 20px;
+}
+.main .registered .btn1,
+.main .registered .btn2{
+	width: 100px;
+	height:30px;
+	font-size: 18px;
+	background-color: #2b04db;
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+	color:white;
+	border-radius: 8px;
+}
+.main .registered .btn-active{
+	background-color: blue;
+}
+.main .registered .btn1{
+	margin: 0 100px;
+}
+.main .registered .btn2{
+	
+}
+footer{
+	width: 80%;
+	margin:0 auto;
+	text-align: center;
+}
+footer p{
+	line-height:26px;
+	color:#808080;
+}
